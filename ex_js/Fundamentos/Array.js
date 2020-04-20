@@ -5,3 +5,13 @@ console.log(valores[4])
 
 valores[4] = 10
 console.log(valores)
+console.log(valores.length)
+
+valores.push({id: 3}, false, null, 'Teste')
+console.log(valores)
+
+console.log(valores.pop())
+delete valore[0]
+console.log(valores)
+
+console.log(typeof valores)
